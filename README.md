@@ -6,11 +6,11 @@ This project is a portfolio example demonstrating secure Docker containerization
 - Building a minimal, self-contained image
 - Serving a simple Python HTTP application
 
-> 🛡️ This project is intended solely for demonstration purposes to showcase skills in Docker and Python. It is not production hardened.
+> This project is intended solely for demonstration purposes to showcase skills in Docker and Python. It is not production hardened.
 
 ---
 
-## 🔧 How It Works
+## How It Works
 
 The container runs a lightweight `http.server`-based application in Python that responds with:
 
@@ -22,7 +22,7 @@ Hello, World from Docker!
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Build the Image
 
@@ -40,7 +40,7 @@ Then open your browser to [http://localhost:8080](http://localhost:8080)
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 .
@@ -51,13 +51,13 @@ Then open your browser to [http://localhost:8080](http://localhost:8080)
 
 ---
 
-## 🔐 Security Best Practices Included
+## Security Best Practices Included
 
 * Runs as a non-root user
 * Uses a minimal base image (`ubuntu:22.04`)
 
 ---
 
-## 📜 License
+## License
 
 This project is released under the [MIT License](LICENSE).
